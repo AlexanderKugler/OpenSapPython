@@ -16,15 +16,15 @@ def minus(a, b):
     return a - b
 
 
-def calc(number1, number2):
+def calc(a, b):
     if readline == "+":
-        print("Ergebnis: ", plus(number1, number2))
+        print("Ergebnis: ", plus(a, b))
     elif readline == "-":
-        print("Ergebnis: ", minus(number1, number2))
+        print("Ergebnis: ", minus(a, b))
     elif readline == "*":
-        print("Ergebnis: ", multiply(number1, number2))
+        print("Ergebnis: ", multiply(a, b))
     elif readline == "/":
-        print("Ergebnis:", divde(number1, number2))
+        print("Ergebnis:", divde(a, b))
 
 
 if __name__ == '__main__':
